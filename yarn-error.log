@@ -1,0 +1,46 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\SUN\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add prop-types
+
+PATH: 
+  C:\Python310\Scripts\;C:\Python310\;C:\Python39\Scripts\;C:\Python39\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\ImageMagick-6.9.9-Q16;C:\Program Files (x86)\ImageMagick-6.9.9-Q16;C:\Windows\System32;C:\Windows;C:\Windows\System32\wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\System32;C:\Windows;C:\Windows\System32\wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\PROGRA~1\Java\JDK18~1.0_2\bin;C:\spark\spark-2.4.4-bin-hadoop2.7\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\ePapyrus\Papyrus-PlugIn-web;C:\Program Files (x86)\ePapyrus\Papyrus-PlugIn-web\Addins;C:\Program Files\nodejs\;C:\Program Files\MongoDB\Server\5.0\bin;C:\Users\SUN\Anaconda3;C:\Users\SUN\Anaconda3\Library\mingw-w64\bin;C:\Users\SUN\Anaconda3\Library\usr\bin;C:\Users\SUN\Anaconda3\Library\bin;C:\Users\SUN\Anaconda3\Scripts;C:\Users\SUN\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\SUN\AppData\Local\Programs\Python\Python38\;C:\Users\SUN\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Progra~1\Java\jdk1.8.0_221bin;C:\Users\SUN\AppData\Local\GitHubDesktop\bin;C:\Users\SUN\AppData\Local\Microsoft\WindowsApps;E:\Microsoft VS Code\bin;C:\Users\SUN\AppData\Local\afreeca;C:\Users\SUN\AppData\Roaming\npm;C:\Program Files\nodejs\;C:\Program Files\MongoDB\Server\5.0\bin;
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'E:\react\prepare\front\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node'
+
+npm manifest: 
+  {
+    "name": "front",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "dev": "next"
+    },
+    "author": "Sun",
+    "license": "MIT",
+    "dependencies": {
+      "next": "^12.0.10",
+      "prop-types": "^15.8.1"
+    },
+    "devDependencies": {
+      "eslint": "^8.8.0",
+      "eslint-plugin-import": "^2.25.4",
+      "eslint-plugin-react": "^7.28.0",
+      "eslint-plugin-react-hooks": "^4.3.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

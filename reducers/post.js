@@ -3,25 +3,31 @@ export const initialState = {
     id: 1,
     User: {
       id: 1,
-      nickname: 'sun',
+      nickname: '제로초',
     },
-    content: '첫번째 글',
-    Images: [{}],
+    content: '첫 번째 게시글 #해시태그#띠용띠용워윅워윅',
+    Images: [{
+      src: 'https://bookthumb-phinf.pstatic.net/cover/137/995/13799585.jpg?udate=20180726',
+    }, {
+      src: 'https://gimg.gilbut.co.kr/book/BN001958/rn_view_BN001958.jpg',
+    }, {
+      src: 'https://gimg.gilbut.co.kr/book/BN001998/rn_view_BN001998.jpg',
+    }],
     Comments: [{
       User: {
         nickname: 'nero',
       },
-      content: '오야오야'
+      content: '우와 개정판이 나왔군요~',
     }, {
       User: {
         nickname: 'hero',
       },
-      content: '히야히야'
+      content: '얼른 사고싶어요~',
     }]
   }],
   imagePaths: [],
   postAdded: false,
-}
+};
 
 const ADD_POST = 'ADD_POST';
 export const addPost = {

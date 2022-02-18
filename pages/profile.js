@@ -13,14 +13,14 @@ const Profile = () => {
 
   const { me } = useSelector((state) => state.user);
 
-  // useEffect(() => {
-  //   dispatch({
-  //     type: LOAD_FOLLOWERS_REQUEST,
-  //   });
-  //   dispatch({
-  //     type: LOAD_FOLLOWINGS_REQUEST,
-  //   });
-  // }, []);
+  useEffect(() => {
+    dispatch({
+      type: LOAD_FOLLOWERS_REQUEST,
+    });
+    dispatch({
+      type: LOAD_FOLLOWINGS_REQUEST,
+    });
+  }, []);
 
   useEffect(() => {
     if (!(me && me.id)) {
